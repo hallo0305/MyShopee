@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Header & Greeting -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUserGreeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/demo_user_greeting"
+                    android:textColor="@color/pink_dark"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slogan"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnHomeCart"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/bg_category_chip"
+                android:contentDescription="@string/nav_cart"
+                android:src="@drawable/ic_cart"
+                app:tint="@color/pink_dark" />
+        </LinearLayout>
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_search_bar"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/pink_dark"
+            android:hint="@string/search_placeholder"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:textSize="14sp" />
+
+        <!-- Promo Banner Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_gradient_pastel"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvBannerTag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="4dp"
+                    android:text="PROMO SPECIAL UAS 💗"
+                    android:textColor="@color/pink_dark"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBannerTag"
+                    android:layout_marginTop="8dp"
+                    android:text="Diskon hingga 50% untuk Produk Cute!"
+                    android:textColor="@color/pink_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Category Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kategori Pilihan 💗"
+            android:textColor="@color/pink_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" />
+
+        <!-- Popular Products -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Produk Populer 💗"
+            android:textColor="@color/pink_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPopularProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+</ScrollView>

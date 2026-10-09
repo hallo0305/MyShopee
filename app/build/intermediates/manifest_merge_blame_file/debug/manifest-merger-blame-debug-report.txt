@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myshopee.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.myshopee.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.myshopee.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:9:5-65:19
+22        android:allowBackup="true"
+22-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\nuris\.gradle\caches\transforms-3\8b309630f57630f8f06eb353cb12d105\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:16:9-35
+32        android:theme="@style/Theme.MyShopee" >
+32-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:17:9-46
+33        <activity
+33-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:20:9-28:20
+34            android:name="com.myshopee.app.ui.splash.SplashActivity"
+34-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:21:13-53
+35            android:exported="true"
+35-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:22:13-36
+36            android:theme="@style/Theme.MyShopee.NoActionBar" >
+36-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:23:13-62
+37            <intent-filter>
+37-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:24:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:25:17-69
+38-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:30:9-33:58
+44            android:name="com.myshopee.app.ui.auth.LoginActivity"
+44-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:31:13-50
+45            android:exported="false"
+45-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:32:13-37
+46            android:windowSoftInputMode="adjustResize" />
+46-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:33:13-55
+47        <activity
+47-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:35:9-38:58
+48            android:name="com.myshopee.app.ui.auth.RegisterActivity"
+48-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:36:13-53
+49            android:exported="false"
+49-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:37:13-37
+50            android:windowSoftInputMode="adjustResize" />
+50-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:38:13-55
+51        <activity
+51-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:40:9-43:55
+52            android:name="com.myshopee.app.ui.main.MainActivity"
+52-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:41:13-49
+53            android:exported="false"
+53-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:42:13-37
+54            android:windowSoftInputMode="adjustPan" />
+54-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:43:13-52
+55        <activity
+55-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:45:9-47:40
+56            android:name="com.myshopee.app.ui.product.ProductListActivity"
+56-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:46:13-59
+57            android:exported="false" />
+57-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:47:13-37
+58        <activity
+58-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:49:9-51:40
+59            android:name="com.myshopee.app.ui.product.ProductDetailActivity"
+59-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:50:13-61
+60            android:exported="false" />
+60-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:51:13-37
+61        <activity
+61-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:53:9-55:40
+62            android:name="com.myshopee.app.ui.checkout.CheckoutActivity"
+62-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:54:13-57
+63            android:exported="false" />
+63-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:55:13-37
+64        <activity
+64-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:57:9-59:40
+65            android:name="com.myshopee.app.ui.payment.PaymentActivity"
+65-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:58:13-55
+66            android:exported="false" />
+66-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:59:13-37
+67        <activity
+67-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:61:9-63:40
+68            android:name="com.myshopee.app.ui.orders.OrderStatusActivity"
+68-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:62:13-58
+69            android:exported="false" />
+69-->C:\Users\nuris\.gemini\antigravity\scratch\MyShopee\app\src\main\AndroidManifest.xml:63:13-37
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.myshopee.app.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nuris\.gradle\caches\transforms-3\9375400d9788d07e4563d2ad1864a59f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nuris\.gradle\caches\transforms-3\33326f0770024d89b4a112b4e779354c\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nuris\.gradle\caches\transforms-3\33326f0770024d89b4a112b4e779354c\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nuris\.gradle\caches\transforms-3\33326f0770024d89b4a112b4e779354c\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+83                android:value="androidx.startup" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+84        </provider>
+85
+86        <uses-library
+86-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+87            android:name="androidx.window.extensions"
+87-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+88            android:required="false" />
+88-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+89        <uses-library
+89-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+90            android:name="androidx.window.sidecar"
+90-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0] C:\Users\nuris\.gradle\caches\transforms-3\e4ad3182a3ca2556757425e10dc71c35\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nuris\.gradle\caches\transforms-3\cc5a3021b865c078817fab516a9b1124\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>

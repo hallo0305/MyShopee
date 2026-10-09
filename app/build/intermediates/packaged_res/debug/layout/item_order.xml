@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvOrderNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No. Pesanan: MSP-99120"
+                android:textColor="@color/pink_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOrderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_category_chip"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:text="Menunggu Pembayaran"
+                android:textColor="@color/status_pending"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvOrderRecipient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Penerima: Diva (081234567890)"
+            android:textColor="@color/text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvOrderCourier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Pengiriman: Reguler (Kota Cirebon)"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/card_border" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total Tagihan:"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvOrderTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 159.000"
+                android:textColor="@color/pink_button"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Dynamic Action Button based on status -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOrderAction"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:text="Bayar Sekarang"
+            android:textColor="@color/pink_dark"
+            android:textSize="12sp"
+            app:cornerRadius="19dp"
+            app:strokeColor="@color/pink_button" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

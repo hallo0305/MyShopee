@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myshopee.app.MyShopeeRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-09T08:51:04" hostname="JIWON" time="0.947">
+  <properties/>
+  <testcase name="testGetCategoriesNotEmpty" classname="com.myshopee.app.MyShopeeRepositoryTest" time="0.921"/>
+  <testcase name="testGetProductsAndFilter" classname="com.myshopee.app.MyShopeeRepositoryTest" time="0.005"/>
+  <testcase name="testCartOperations" classname="com.myshopee.app.MyShopeeRepositoryTest" time="0.007"/>
+  <testcase name="testOrderCreationAndStatusUpdate" classname="com.myshopee.app.MyShopeeRepositoryTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 09, 2026 3:51:04 PM okhttp3.internal.platform.Platform log
+INFO: --> GET https://your-supabase-project.supabase.co/rest/v1/categories?select=*
+Oct 09, 2026 3:51:04 PM okhttp3.internal.platform.Platform log
+INFO: apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.demo-anon-key
+Oct 09, 2026 3:51:04 PM okhttp3.internal.platform.Platform log
+INFO: --> END GET
+Oct 09, 2026 3:51:05 PM okhttp3.internal.platform.Platform log
+INFO: <-- HTTP FAILED: java.net.UnknownHostException: No such host is known (your-supabase-project.supabase.co)
+]]></system-err>
+</testsuite>

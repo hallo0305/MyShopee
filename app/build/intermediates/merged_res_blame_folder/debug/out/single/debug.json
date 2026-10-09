@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_payment_card.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_payment_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_copy.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_copy.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/color_selector_nav_item.xml.flat",
+        "source": "com.myshopee.app-main-6:/color/selector_nav_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_fragment_category.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_orders.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_clear.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_fragment_profile.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_bca.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_bca.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_payment.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_product_list.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_item_order.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_fragment_cart.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_category.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_truck.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_truck.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_bg_category_chip.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\bg_category_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_bg_card_rounded.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\bg_card_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_item_category_card.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/item_category_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_product_list.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_bg_button_pink.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\bg_button_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_fragment_home.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_bg_gradient_pastel.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\bg_gradient_pastel.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_dialog_edit_profile.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_item_product.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_error_circle.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_error_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_clock.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_clock.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_item_cart.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_order_status.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_order_status.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_product_detail.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_favorite_border.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_activity_checkout.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_checkout.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_help.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_order_status.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_order_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.myshopee.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.myshopee.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-merged_res-4:\\drawable_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\drawable\\bg_search_bar.xml"
+    }
+]

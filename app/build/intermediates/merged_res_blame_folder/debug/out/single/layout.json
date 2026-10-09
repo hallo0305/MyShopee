@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\fragment_category.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\item_cart.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_order_status.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_order_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_order_status.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_order_status.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/fragment_profile.xml",
+        "source": "com.myshopee.app-main-6:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\item_product.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/item_category_card.xml",
+        "source": "com.myshopee.app-main-6:/layout/item_category_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/item_order.xml",
+        "source": "com.myshopee.app-main-6:/layout/item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_checkout.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_product_detail.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/item_cart.xml",
+        "source": "com.myshopee.app-main-6:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_product_detail.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_checkout.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/item_product.xml",
+        "source": "com.myshopee.app-main-6:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/fragment_cart.xml",
+        "source": "com.myshopee.app-main-6:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\item_category.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_product_list.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_payment.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/activity_payment.xml",
+        "source": "com.myshopee.app-main-6:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\item_order.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-mergeDebugResources-3:\\layout\\activity_product_list.xml",
+        "source": "C:\\Users\\nuris\\.gradle\\daemon\\8.2\\com.myshopee.app-main-6:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/dialog_edit_profile.xml",
+        "source": "com.myshopee.app-main-6:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.myshopee.app-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "com.myshopee.app-main-6:/layout/fragment_home.xml"
+    }
+]

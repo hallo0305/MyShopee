@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Color Palette (My Shopee by Diva - Modern Cute Pastel & Accent) -->
+    <color name="pink_pastel_primary">#F8BBD0</color>
+    <color name="pink_light">#FCE4EC</color>
+    <color name="app_background">#FFF7FA</color>
+    <color name="pink_button">#EC6A9C</color>
+    <color name="pink_dark">#AD416D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#3F3037</color>
+
+    <!-- Standard Primary & Container tokens -->
+    <color name="primary">#EC6A9C</color>
+    <color name="primary_dark">#AD416D</color>
+    <color name="primary_light">#FCE4EC</color>
+    <color name="primary_container">#FFF0F5</color>
+
+    <!-- UI Helper Colors -->
+    <color name="text_secondary">#7D6B73</color>
+    <color name="text_hint">#B3A2AA</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="card_border">#F3D0DC</color>
+    <color name="border">#F3D0DC</color>
+    <color name="divider">#FCE4EC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="chip_bg">#FCE4EC</color>
+    <color name="badge_bg">#F8BBD0</color>
+
+    <!-- Status & Feedback Colors -->
+    <color name="gold_star">#FFA000</color>
+    <color name="rating_star">#FFA000</color>
+    <color name="success">#2E7D32</color>
+    <color name="success_container">#E8F5E9</color>
+    <color name="warning">#ED6C02</color>
+    <color name="warning_container">#FFF4E5</color>
+    <color name="error">#D32F2F</color>
+    <color name="error_container">#FFEBEE</color>
+
+    <color name="status_pending">#ED6C02</color>
+    <color name="status_paid">#2E7D32</color>
+    <color name="status_processing">#1976D2</color>
+    <color name="status_completed">#7B1FA2</color>
+    <color name="status_cancelled">#D32F2F</color>
+
+    <!-- Default Material compatibility -->
+    <color name="purple_200">#F8BBD0</color>
+    <color name="purple_500">#EC6A9C</color>
+    <color name="purple_700">#AD416D</color>
+    <color name="teal_200">#FCE4EC</color>
+    <color name="teal_700">#EC6A9C</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

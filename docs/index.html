@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopee by Diva 💗 — Belanja Cantik, Harga Menarik</title>
+    <meta name="description" content="Aplikasi E-Commerce My Shopee by Diva - Cute, Feminine, Modern & Aesthetic Shopping Experience.">
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Header -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <i class="fa-solid fa-bag-shopping brand-icon"></i>
+                <div class="brand-text">
+                    <h1>My Shopee</h1>
+                    <span class="sub-brand">by Diva 💗</span>
+                </div>
+            </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Cari produk pilihanmu..." onkeyup="filterProducts()">
+            </div>
+            <div class="header-actions">
+                <button class="cart-btn" onclick="openCartModal()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+
+        <!-- Welcome Greeting Banner -->
+        <section class="banner-section">
+            <div class="greeting-card">
+                <div class="greeting-text">
+                    <h2 id="userGreeting">Hai, Diva! 💗</h2>
+                    <p class="slogan">Belanja Cantik, Harga Menarik ✨</p>
+                </div>
+                <div class="banner-tag">UAS Pemrograman Mobile</div>
+            </div>
+        </section>
+
+        <!-- Categories Filter -->
+        <section class="categories-section">
+            <h3 class="section-title">Kategori</h3>
+            <div class="categories-grid">
+                <button class="category-chip active" onclick="selectCategory('All', this)">
+                    <i class="fa-solid fa-border-all"></i> Semua
+                </button>
+                <button class="category-chip" onclick="selectCategory('Fashion', this)">
+                    <i class="fa-solid fa-shirt"></i> Fashion
+                </button>
+                <button class="category-chip" onclick="selectCategory('Aksesori', this)">
+                    <i class="fa-solid fa-gem"></i> Aksesori
+                </button>
+                <button class="category-chip" onclick="selectCategory('Elektronik', this)">
+                    <i class="fa-solid fa-headphones"></i> Elektronik
+                </button>
+                <button class="category-chip" onclick="selectCategory('Tas', this)">
+                    <i class="fa-solid fa-briefcase"></i> Tas
+                </button>
+                <button class="category-chip" onclick="selectCategory('Sepatu', this)">
+                    <i class="fa-solid fa-shoe-prints"></i> Sepatu
+                </button>
+                <button class="category-chip" onclick="selectCategory('Kecantikan', this)">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Kecantikan
+                </button>
+            </div>
+        </section>
+
+        <!-- Product Grid Header & Sort -->
+        <section class="products-section">
+            <div class="products-header">
+                <h3 class="section-title" id="productGridTitle">Produk Populer 💗</h3>
+                <div class="sort-wrapper">
+                    <label for="sortSelect">Urutkan:</label>
+                    <select id="sortSelect" onchange="sortProducts()">
+                        <option value="default">Rekomendasi</option>
+                        <option value="low-high">Harga Termurah</option>
+                        <option value="high-low">Harga Termahal</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Dynamic Content rendered by script.js -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Product Detail Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content product-detail-card">
+            <span class="close-btn" onclick="closeProductModal()">&times;</span>
+            <div class="detail-body" id="detailBody">
+                <!-- Dynamically filled by script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content cart-card">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-cart-shopping"></i> Keranjang Belanja Diva 💗</h3>
+                <span class="close-btn" onclick="closeCartModal()">&times;</span>
+            </div>
+            <div class="cart-items-list" id="cartItemsList">
+                <!-- Cart items list dynamically rendered -->
+            </div>
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <strong id="cartSubtotal">Rp 0</strong>
+                </div>
+                <button class="btn-primary btn-checkout" onclick="openCheckoutModal()">
+                    Lanjut Checkout <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content checkout-card">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-file-invoice"></i> Ringkasan Checkout</h3>
+                <span class="close-btn" onclick="closeCheckoutModal()">&times;</span>
+            </div>
+            <div class="checkout-body">
+                <div class="form-group">
+                    <label>Nama Penerima</label>
+                    <input type="text" id="checkoutName" value="Diva">
+                </div>
+                <div class="form-group">
+                    <label>Nomor HP</label>
+                    <input type="text" id="checkoutPhone" value="081234567890">
+                </div>
+                <div class="form-group">
+                    <label>Alamat Pengiriman</label>
+                    <textarea id="checkoutAddress" rows="2">Jl. Kartini No. 45, Kesambi, Kota Cirebon, Jawa Barat</textarea>
+                </div>
+                <div class="form-group">
+                    <label>Metode Pengiriman</label>
+                    <select id="shippingOption" onchange="updateCheckoutTotal()">
+                        <option value="10000">Reguler (2-3 hari) - Rp 10.000</option>
+                        <option value="20000">Express (1 hari) - Rp 20.000</option>
+                    </select>
+                </div>
+
+                <div class="order-summary-box">
+                    <div class="summary-row">
+                        <span>Subtotal Barang:</span>
+                        <span id="checkoutSubtotal">Rp 0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Ongkos Kirim:</span>
+                        <span id="checkoutShipping">Rp 10.000</span>
+                    </div>
+                    <div class="summary-row total-row">
+                        <span>Total Pembayaran:</span>
+                        <strong id="checkoutTotal">Rp 0</strong>
+                    </div>
+                </div>
+
+                <button class="btn-primary btn-place-order" onclick="processOrder()">
+                    Buat Pesanan Sekarang 💗
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Simulation Modal -->
+    <div class="modal" id="paymentModal">
+        <div class="modal-content payment-card">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-building-columns"></i> Pembayaran Virtual Account BCA</h3>
+                <span class="close-btn" onclick="closePaymentModal()">&times;</span>
+            </div>
+            <div class="payment-body">
+                <div class="alert alert-info">
+                    <i class="fa-solid fa-circle-info"></i> Ini adalah simulasi transaksi demonstrasi.
+                </div>
+                <p>Silakan lakukan transfer ke nomor Virtual Account BCA berikut:</p>
+                <div class="va-box">
+                    <span class="va-label">Nomor VA Demo:</span>
+                    <strong class="va-number" id="vaNumber">1234567890</strong>
+                    <button class="copy-btn" onclick="copyVA()"><i class="fa-regular fa-copy"></i> Salin</button>
+                </div>
+                <div class="order-info-box">
+                    <p>No. Pesanan: <strong id="orderNumberDisplay">MSP-88912</strong></p>
+                    <p>Total Bayar: <strong id="paymentTotalDisplay" class="text-pink">Rp 0</strong></p>
+                </div>
+                <div class="payment-actions">
+                    <button class="btn-primary" onclick="checkPaymentStatus()">
+                        Cek Status Pembayaran <i class="fa-solid fa-arrows-rotate"></i>
+                    </button>
+                </div>
+                <div id="paymentStatusBox" class="status-box hidden">
+                    <!-- Updated by script.js -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 <strong>My Shopee by Diva 💗</strong> — Tugas UAS Pemrograman Mobile Dasar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

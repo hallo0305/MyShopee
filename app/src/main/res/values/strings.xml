@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Shopee</string>
+    <string name="branding_name">My Shopee by Diva</string>
+    <string name="slogan">Belanja Cantik, Harga Menarik</string>
+    <string name="demo_user_greeting">Hai, Diva! 💗</string>
+    <string name="default_user_greeting">Hai, %1$s! 💗</string>
+
+    <!-- Navigasi -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_category">Kategori</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- UI Umum & Tombol -->
+    <string name="search_placeholder">Cari produk pilihanmu...</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_register">Daftar Akun Baru</string>
+    <string name="btn_buy_now">Beli Sekarang</string>
+    <string name="btn_add_to_cart">Tambah ke Keranjang</string>
+    <string name="btn_checkout">Lanjut Checkout</string>
+    <string name="btn_place_order">Buat Pesanan</string>
+    <string name="btn_copy_va">Salin Nomor VA</string>
+    <string name="btn_check_status">Cek Status Pembayaran</string>
+    <string name="btn_logout">Keluar Akun</string>
+    <string name="btn_edit_profile">Ubah Profil</string>
+    <string name="btn_simulated_pay">Bayar Sekarang (Simulasi)</string>
+
+    <!-- Pembayaran & Simulasi -->
+    <string name="va_number_demo">1234567890</string>
+    <string name="bca_va_title">Simulasi Virtual Account BCA</string>
+    <string name="payment_simulation_note">Catatan: Ini adalah transaksi simulasi lokal untuk pengujian aplikasi My Shopee.</string>
+
+    <!-- Status Pesanan -->
+    <string name="status_pending">Menunggu Pembayaran</string>
+    <string name="status_paid">Berhasil Dibayar</string>
+    <string name="status_processing">Sedang Diproses</string>
+    <string name="status_shipped">Sedang Dikirim</string>
+    <string name="status_completed">Selesai</string>
+    <string name="status_cancelled">Dibatalkan</string>
+
+    <!-- Pesan Kosong (Empty States) -->
+    <string name="cart_empty_title">Keranjang Belanja Kosong</string>
+    <string name="cart_empty_desc">Belum ada barang di keranjangmu. Yuk jelajahi produk cantik kami!</string>
+    <string name="order_empty_title">Belum Ada Pesanan</string>
+    <string name="order_empty_desc">Kamu belum memiliki riwayat pesanan. Mulai belanja sekarang!</string>
+    <string name="product_empty_title">Produk Tidak Ditemukan</string>
+    <string name="product_empty_desc">Tidak ada produk yang cocok dengan pencarianmu.</string>
+</resources>

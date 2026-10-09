@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#FFF7FA</color>
+    <color name="badge_bg">#F8BBD0</color>
+    <color name="black">#000000</color>
+    <color name="border">#F3D0DC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#F3D0DC</color>
+    <color name="chip_bg">#FCE4EC</color>
+    <color name="divider">#FCE4EC</color>
+    <color name="error">#D32F2F</color>
+    <color name="error_container">#FFEBEE</color>
+    <color name="gold_star">#FFA000</color>
+    <color name="pink_button">#EC6A9C</color>
+    <color name="pink_dark">#AD416D</color>
+    <color name="pink_light">#FCE4EC</color>
+    <color name="pink_pastel_primary">#F8BBD0</color>
+    <color name="primary">#EC6A9C</color>
+    <color name="primary_container">#FFF0F5</color>
+    <color name="primary_dark">#AD416D</color>
+    <color name="primary_light">#FCE4EC</color>
+    <color name="purple_200">#F8BBD0</color>
+    <color name="purple_500">#EC6A9C</color>
+    <color name="purple_700">#AD416D</color>
+    <color name="rating_star">#FFA000</color>
+    <color name="status_cancelled">#D32F2F</color>
+    <color name="status_completed">#7B1FA2</color>
+    <color name="status_paid">#2E7D32</color>
+    <color name="status_pending">#ED6C02</color>
+    <color name="status_processing">#1976D2</color>
+    <color name="success">#2E7D32</color>
+    <color name="success_container">#E8F5E9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="teal_200">#FCE4EC</color>
+    <color name="teal_700">#EC6A9C</color>
+    <color name="text_hint">#B3A2AA</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#3F3037</color>
+    <color name="text_secondary">#7D6B73</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#ED6C02</color>
+    <color name="warning_container">#FFF4E5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">My Shopee</string>
+    <string name="bca_va_title">Simulasi Virtual Account BCA</string>
+    <string name="branding_name">My Shopee by Diva</string>
+    <string name="btn_add_to_cart">Tambah ke Keranjang</string>
+    <string name="btn_buy_now">Beli Sekarang</string>
+    <string name="btn_check_status">Cek Status Pembayaran</string>
+    <string name="btn_checkout">Lanjut Checkout</string>
+    <string name="btn_copy_va">Salin Nomor VA</string>
+    <string name="btn_edit_profile">Ubah Profil</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_logout">Keluar Akun</string>
+    <string name="btn_place_order">Buat Pesanan</string>
+    <string name="btn_register">Daftar Akun Baru</string>
+    <string name="btn_simulated_pay">Bayar Sekarang (Simulasi)</string>
+    <string name="cart_empty_desc">Belum ada barang di keranjangmu. Yuk jelajahi produk cantik kami!</string>
+    <string name="cart_empty_title">Keranjang Belanja Kosong</string>
+    <string name="default_user_greeting">Hai, %1$s! 💗</string>
+    <string name="demo_user_greeting">Hai, Diva! 💗</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_category">Kategori</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_profile">Profil</string>
+    <string name="order_empty_desc">Kamu belum memiliki riwayat pesanan. Mulai belanja sekarang!</string>
+    <string name="order_empty_title">Belum Ada Pesanan</string>
+    <string name="payment_simulation_note">Catatan: Ini adalah transaksi simulasi lokal untuk pengujian aplikasi My Shopee.</string>
+    <string name="product_empty_desc">Tidak ada produk yang cocok dengan pencarianmu.</string>
+    <string name="product_empty_title">Produk Tidak Ditemukan</string>
+    <string name="search_placeholder">Cari produk pilihanmu...</string>
+    <string name="slogan">Belanja Cantik, Harga Menarik</string>
+    <string name="status_cancelled">Dibatalkan</string>
+    <string name="status_completed">Selesai</string>
+    <string name="status_paid">Berhasil Dibayar</string>
+    <string name="status_pending">Menunggu Pembayaran</string>
+    <string name="status_processing">Sedang Diproses</string>
+    <string name="status_shipped">Sedang Dikirim</string>
+    <string name="va_number_demo">1234567890</string>
+    <style name="Theme.MyShopee" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/pink_button</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/pink_pastel_primary</item>
+        <item name="colorSecondaryVariant">@color/pink_light</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        
+        <item name="android:statusBarColor">@color/pink_pastel_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+    <style name="Theme.MyShopee.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink_button</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/pink_pastel_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+</resources>
